@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meal App</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Meal App</h1>
+
+    <div class="form-group">
+      <label for="mealName">Meal Name:</label>
+      <input type="text" id="mealName" class="form-control">
+    </div>
+
+    <div class="form-group">
+      <label for="ingredients">Ingredients:</label>
+      <textarea id="ingredients" class="form-control"></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="instructions">Instructions:</label>
+      <textarea id="instructions" class="form-control"></textarea>
+    </div>
+
+    <button id="addMealBtn" class="btn btn-primary">Add Meal</button>
+
+    <div class="form-group mt-4">
+      <label for="search">Search:</label>
+      <input type="text" id="search" class="form-control">
+    </div>
+
+    <button id="searchBtn" class="btn btn-primary">Search</button>
+
+    <div id="mealList" class="mt-4"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
